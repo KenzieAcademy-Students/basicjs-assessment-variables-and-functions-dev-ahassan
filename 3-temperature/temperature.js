@@ -24,5 +24,9 @@
 // 👇 WRITE YOUR CODE HERE 👇
 
 const convertFtoC = function (temp) {
-
+    let tempInFahr = prompt("What is the temparature you would like to convert from °F to °C");
+    
+    let tempInCeli = ( tempInFahr - 32 ) * 5/9;
+    document.write(tempInFahr + "°F" + " " + "converted to Celsius is" + " " + tempInCeli.toFixed(0) + "°C" );
 }
+convertFtoC()
