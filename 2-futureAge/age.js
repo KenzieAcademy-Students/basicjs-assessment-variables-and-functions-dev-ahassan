@@ -22,3 +22,20 @@
 //    Print your message to the browser using document.write()
 //
 // 👇 WRITE YOUR CODE HERE 👇
+
+
+let calculateAge = function () {
+    birthYear = prompt("What year were you born ?");
+    currentYear = prompt("What is the current Year, Ex: 2023?");
+    futureYear = prompt("Please Enter a future year, Ex: 2040");
+
+     calculateAge = futureYear - birthYear;
+    let firstAge = futureYear - birthYear;
+    let secondAge = firstAge - 1;
+    let difference = futureYear - currentYear;
+
+    message = ("I will be either " + firstAge + " " + "or" + " " + secondAge+ " " + "depending on what month it is in" + " " + futureYear + "." + " " + "</br>" + "You got" + " " + difference +" " + "Years" + " " + "to get there." + "<br/>" + "See you in the future!")
+    document.write(message)
+}
+
+calculateAge()

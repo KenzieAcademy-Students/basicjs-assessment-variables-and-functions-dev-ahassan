@@ -48,4 +48,4 @@ document.write("Congratulations, you have won a life time supply of " + snack + 
 
 }
 
-lifeTimeSupply();
+lifeTimeSupply()
